@@ -84,8 +84,13 @@ const reviews = [
   });
 
   surpriseButton.addEventListener("click",()=>{
-    //currentItem=3;
-    currentItem = Math.floor(Math.random()*(reviews.length-1));
+    let random = Math.floor(Math.random()*(reviews.length-1));
+    if(random == currentItem){
+      currentItem=random+1;
+    }
+    else{
+      currentItem=random;
+    }
     showReview();
   });
   console.log(currentItem);
