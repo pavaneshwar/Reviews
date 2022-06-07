@@ -13,13 +13,13 @@ main{
 }
 .title{
     margin-left: 650px;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 .underline{
     background-color: rgba(87,173,234,255);
     width: 100px;;
-    height: 8px;
-    margin-left: 90px;
+    height: 4px;
+    margin-left: 80px;
     margin-top: -20px;
 }
 
@@ -27,7 +27,6 @@ main{
     background-color: white;
     margin-top: 75px;
     margin-left: 500px;
-    margin-right: 300px;
     min-height: 400px;
     width: 600px;
     border-radius: 10px ;
@@ -35,7 +34,7 @@ main{
 }
 h1{
     color: rgba(3, 9, 29, 0.801);
-    font-size: 45px;
+    font-size: 40px;
     width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -45,14 +44,21 @@ img:not(.nav-logo) {
     display: block;
   }
 
+.pic{
+    width: 150px;
+    height: 150px;
+    margin-left: 225px;
+    margin-top: 30px;
+    background-color: brown;
+    
+}
 #photo{
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
     border-radius:50%;
 }
 #btn{
     margin-left: 250px;
-    margin-top: 260px;
 }
 #left{
     margin-right: 50px;
@@ -70,7 +76,6 @@ img:not(.nav-logo) {
 }
 button:hover{
     opacity: 0.5;
-    color: var(--clr-primary-5);
 }
 #surprise{
         min-width:110px;
@@ -83,8 +88,25 @@ button:hover{
         border-color: rgba(73,166,233,255);
         background-color: rgba(234,247,255,255);
         text-align: center;
-        line-height: 5px;
-        
+        line-height: 5px;     
 }
-
-
+.profile{
+    width:500px;
+    background-color: rgb(71, 255, 114);
+    display: inline;
+    text-align: center;
+}
+#name{
+    color: rgb(106, 180, 254);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#work{
+    color: rgb(6, 7, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#rev{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
