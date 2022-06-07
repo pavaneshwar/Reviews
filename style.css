@@ -33,9 +33,6 @@ main{
     border-radius: 10px ;
     box-shadow: 5px 10px 9px 8px rgba(233,237,240,255);
 }
-.title{
-
-}
 h1{
     color: rgba(3, 9, 29, 0.801);
     font-size: 45px;
@@ -52,15 +49,6 @@ img:not(.nav-logo) {
     height: 100%;
     object-fit: cover;
     border-radius:50%;
-}
-#name{
-
-}
-#work{
-
-}
-#rev{
-
 }
 #btn{
     margin-left: 250px;

@@ -56,7 +56,7 @@ const reviews = [
     const item = reviews[currentItem];
     
     photo.src=item.photo;
-    people.textConent=item.name;
+    people.textContent=item.name;
     work.textContent=item.work;
     rev.textContent=item.rev;
   }
